@@ -1,0 +1,26 @@
+body{
+    background-color: #0f3949;
+}
+
+.login-card{
+    max-width: 50rem;
+    max-height: 50rem;
+    padding: 2rem;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: #0f3949;
+    color: white;
+    margin: 4rem auto; 
+}
+.form-input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #c9c9c9;
+    background-color: transparent;
+    color: white;
+    transition: border-color 1s ease;
+}
+.form-input:focus{
+    border-color: #007bff;
+    outline: none;
+}
