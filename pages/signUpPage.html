@@ -14,13 +14,16 @@
 <body class="text-white">
     <section class="container login-card d-flex flex-column justify-content-center align-items-center">
         <h1 class="p-3">Smart Login System</h1>
-        <input class="form-input bg-transparent m-2" type="text" placeholder="Enter your Email">
-        <input class="form-input bg-transparent m-2" type="password" placeholder="Enter your password">
-        <button type="button" class="btn btn-outline-primary w-100 m-2 ">Sign up</button>
+
+        <input id="inputName"  class="form-input bg-transparent m-2" type="text" placeholder="Enter your name">
+        <input id="inputEmail"  class="form-input bg-transparent m-2" type="text" placeholder="Enter your Email">
+        <input id="inputPass"  class="form-input bg-transparent m-2" type="password" placeholder="Enter your password">
+        <p id="danger" class="text-danger"></p>
+        <button  type="button" class=" Sign btn btn-outline-primary w-100 m-2 ">Sign up</button>
         <p>You have an account? <a href="../index.html" class="text-decoration-none">Sign in</a></p>
     </section>
     <script src="../js/bootstrap.bundle.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="../js/signUp.js"></script>
 </body>
 
 </html>

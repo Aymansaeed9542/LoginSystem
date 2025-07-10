@@ -15,15 +15,16 @@
 
     <section class=" container login-card d-flex flex-column justify-content-center align-items-center ">
         <h1 class="p-3">Smart Login System</h1>
-        <input class="form-input bg-transparent m-2" type="text" placeholder="Enter your Email">
-        <input class="form-input bg-transparent m-2" type="password" placeholder="Enter your password" h>
-        <button type="button" class="btn btn-outline-primary w-100 m-2 ">login</button>
+        <input id="loginEmail" class="form-input bg-transparent m-2" type="text" placeholder="Enter your Email">
+        <input id="loginPass" class="form-input bg-transparent m-2" type="password" placeholder="Enter your password" h>
+        <button type="button" class="login btn btn-outline-primary w-100 m-2 ">login</button>
+        <p id="loginMsg" class="text-danger"></p>
         <p>Don’t have an account? <a href="./pages/signUpPage.html" class="text-decoration-none">Sign up</a></p>
     </section>
 
 
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/logIn.js"></script>
 </body>
 
 </html>
